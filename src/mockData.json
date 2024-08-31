@@ -1,0 +1,117 @@
+{
+  "students": [
+    {
+      "rollNumber": "123456",
+      "dob": "2000-01-01",
+      "name": "Rajini",
+      "email": "superstar@gmail.com",
+      "loans": [
+        {
+          "loanId": "L001",
+          "amount": 10000,
+          "status": "approved",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "555555",
+          "dateOfReceipt": "1989-04-01"
+        },
+        {
+          "loanId": "L002",
+          "amount": 5000,
+          "status": "pending",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "555555",
+          "dateOfReceipt": "1999-02-01"
+        }
+      ]
+     
+    },
+    {
+      "rollNumber": "654321",
+      "dob": "1999-05-15",
+      "name": "Rajini",
+      "email": "ThalaCSK@gmail.com",
+      "loans": [
+        {
+          "loanId": "L010",
+          "amount": 10000,
+          "status": "approved",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "444444",
+          "dateOfReceipt": "1989-10-01"
+        },
+        {
+          "loanId": "L020",
+          "amount": 5000,
+          "status": "pending",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "444444",
+          "dateOfReceipt": "1999-02-01"
+        }
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "employeeId": "E12345",
+      "password": "admin123",
+      "name": "Admin One",
+      "dob": "1980-01-01",
+      "students": [
+    {
+      "rollNumber": "123456",
+      "dob": "2000-01-01",
+      "name": "Rajini",
+      "email": "superstar@gmail.com",
+      "loans": [
+        {
+          "loanId": "L001",
+          "amount": 10000,
+          "status": "approved",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "555555",
+          "dateOfReceipt": "1989-04-01"
+        },
+        {
+          "loanId": "L002",
+          "amount": 5000,
+          "status": "pending",
+          "semester": "2",
+          "amountReceived": 0,
+          "bankReferenceNo": "555555",
+          "dateOfReceipt": "1999-02-01"
+        }
+      ]
+      
+    },
+    {
+      "rollNumber": "654321",
+      "dob": "1999-05-15",
+      "name": "MSD",
+      "email": "ThalaCSK@gmail.com",
+      "loans": [
+        {
+          "loanId": "L010",
+          "amount": 10000,
+          "status": "approved",
+          "semester": "1",
+          "amountReceived": 10000,
+          "bankReferenceNo": "444444",
+          "dateOfReceipt": "1989-04-01"
+        }
+      ]
+    }
+  ]
+    },
+    {
+      "employeeId": "E6789",
+      "password": "admin345",
+      "name": "Admin Two",
+      "dob": "1985-03-03"
+    }
+  ]
+}
